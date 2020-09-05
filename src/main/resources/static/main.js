@@ -41,7 +41,7 @@ app.controller("StudentController", function($scope, $http) {
         }).then(_success, _error);
     };
 
-    $scope.createEmployee = function() {
+    $scope.createStudent = function() {
         _clearFormData();
     }
 
